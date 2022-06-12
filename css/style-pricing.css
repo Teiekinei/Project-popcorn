@@ -1,0 +1,153 @@
+header{
+  background: #F7F9FD 0% 0% no-repeat padding-box;
+  border-radius: 0px 0px 0px 300px;
+  height: 470px;
+  position: absolute;
+  width: 100%;
+}
+@media (max-width: 992px) {
+  header{
+    background: none;
+    border-radius: 0;
+    height: auto;
+    position: relative;
+  }
+}
+/*----------banner----------*/
+.banner-text{
+  position: relative;
+  padding: 20% 0;
+}
+.banner-img{
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner.svg);
+  position: absolute;
+  width: 885px;
+  height: 546px;
+  right: 0;
+  background-repeat: no-repeat;
+}
+.banner-img img{
+  height: 70vh;
+}
+@media (max-width: 992px) {
+  .banner{
+    background: #F7F9FD 0% 0% no-repeat padding-box;
+    border-radius: 0px 0px 0px 300px;
+    height: 495px;
+    position: relative;
+    width: 100%;
+  }
+  .banner-img{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner_sm.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 495px;
+  }
+}
+/*----------plan----------*/
+.btn-list{
+  margin: 28px 0 54px;
+  overflow: auto;
+}
+.btn-list::-webkit-scrollbar{
+  display: none;
+}
+.btn-list .btn{
+  margin: 10px;
+  white-space: nowrap;
+}
+.card{
+  padding: 5%;
+}
+h3{
+  font-weight: bold;
+}
+hr{
+  color:#DDDDDD;
+  size: 1px;
+}
+.btn-go{
+  margin-top: 42px;
+}
+.btn-go:before{
+  content:'立即體驗';
+}
+.plan-content .card{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 10px #00000014;
+  border-radius: 12px;
+}
+.pricing{
+  margin: 32px 0;
+}
+.pricing .col-5{
+  font-size: 12px;
+  padding: 24px 0;
+  background: #F5F5F5 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+}
+.pricing .col-2{
+  font-size: 29px;
+}
+.pricing .members{
+  color: #56C4C5;
+  font-size: 32px;
+}
+.pricing .price{
+  font-size: 32px;
+}
+.pricing sub{
+  font-size: 12px;
+}
+ul{
+  list-style-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_check.svg)
+}
+li{
+  line-height: 2;
+  white-space:nowrap;
+}
+/*----------question----------*/
+.question{
+  margin-bottom: 100px;
+}
+.question .text-center{
+  margin-bottom: 48px;
+}
+.accordion-item{
+  border-radius: 12px;
+  margin: 10px 0;
+  box-shadow: 0px 2px 10px #00000014;
+  border: none;
+}
+.accordion-button::after {
+  content: "+";
+  background-image: none;
+  font-size: 34px;
+  color: #56C4C5;
+  margin-top: -34px;
+  transform: rotate(90deg);
+  transform-origin: 10px 30px;
+}
+.accordion-button:focus {
+  box-shadow: rgba(255, 0, 0, 0);
+}
+.accordion-button:not(.collapsed)::after {
+  content: "-";
+  background-image: none;
+  transform: rotate(0deg);
+  transform-origin: 10px 30px;
+}
+.accordion-button:not(.collapsed) {
+  color: #56C4C5;
+  background-color: #FFFFFF;
+  outline: none;
+  box-shadow: none;
+  font-weight: bold;
+}
+.accordion-header:not(.collapsed)::after {
+  color:#56C4C5;
+}
+.accordion-body{
+  color: #747474;
+}
