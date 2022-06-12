@@ -190,16 +190,16 @@
 }
 @media (max-width: 768px){
   .slogan{
-    background: none;
-    position: relative;
+    background: transparent url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/footer_sm.svg) 0% 0% no-repeat padding-box;
+    background-size: contain;
+    margin-bottom: 30%;
   }
   .slogan-sm{
     margin-top: 0%;
     display: block;
-    width: 100vw;
   }
   .slogan-content{
-    margin-top: 0%;
+    margin-top: 100%;
   }
   .slogan .btn{
     margin: 24px 0 60px 0;
